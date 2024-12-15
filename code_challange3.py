@@ -1,0 +1,13 @@
+print("Ailyn Anos \t BSIT- 1B")
+print("\n")
+n1= eval(input("Insert first number: "))
+n2= eval(input("Insert second number: "))
+
+print("\n\n")
+print("The sum of", n1 ,"and", n2 , "is ", n1+n2)
+print("The difference of", n1 ,"and", n2 , "is ", n1-n2)
+print("The product of", n1 ,"and", n2 , "is ", n1*n2)
+print("The quotient of", n1 ,"and", n2 , "is ", n1/n2)
+print("The exponent of", n1 ,"and", n2 , "is ", n1**n2)
+print("The remainder of", n1 ,"and", n2 , "is ", n1%n2)
+print("The floor division of", n1 ,"and", n2 , "is ", n1//n2)
