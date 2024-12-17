@@ -1,15 +1,18 @@
-
+#AilynAnos Final Project
+#this is a completion of my activities and code challange during my first semester
 
 import os
 
-
+#this is to have the list of my activities using for loop
+#Function is also used to shorten the lines of codes
 def activities():
     os.system('cls')
     print("\nTHIS ARE ALL OF MY ACTIVITIES\n")
     for a in range (1,21):
         print(f"{a}.) Activity {a}" )
-        
 
+#this is to have the list of my code challange using for loop
+#Funtion is also used to shorten the lines of codes
 def codeChallange():
     os.system('cls')
     print("\nTHIS ARE ALL OF MY CODE CHALLANGE\n")
@@ -20,16 +23,16 @@ def codeChallange():
 
     
 
-def exitAct():
-    q1 = input("\nDo you want to exit? yes|no\n:")
-    if q1.lower() == "yes":
-           print("THANK YOU FOR CHECKING MY PROJECT")
+# def exitAct():
+#     q1 = input("\nDo you want to exit? yes|no\n:")
+#     if q1.lower() == "yes":
+#            print("THANK YOU FOR CHECKING MY PROJECT")
            
            
            
            
-    else:
-           contin = True
+#     else:
+#            contin = True
 
 
 
@@ -39,22 +42,29 @@ def exitAct():
 name = input("\nEnter your name: ")
 print(f"\nHi {name.upper()}, This is my Final Project\n")
     
-    
+   
 contin = True
 while contin == True:
         print("__________________________")
         print("DASHBOARD\n\n1.)PYTHON ACTIVITIES\n2.)PYTHON CODE CHALLANGE\n3.)EXIT")
         ch = input(" --->")
         
+
+        #this is a condtional statement if the user will choose PYTHON ACTIVITIES
         if ch == "1":
     
                 activities()
                 act= input("\nEnter the number of the Activity you want to open:  ")
             
-
+                #the following condtional statement is the number of activities the user will 
+                # decide to open
                 if act == "1":
                         from activity1 import hello
                         """THIS IS A PROGRAM THAT WILL SHOW YOU A PRINT MADE FROM PYTHON"""
+                        #choosing yes here will allow user to close the system 
+                        #choosing no will allow the user to go back to dashboard to choose another activity or code challange to open
+                        #this exit condtional statement are the same with other exit
+                        #it is not placed in the funtional form because the while loop will still continue eve if the user choose to exit the program.
                         q1 = input("\nDo you want to exit? yes|no\n:")
                         if q1.lower() == "yes":
                                 print("THANK YOU FOR CHECKING MY PROJECT")
@@ -255,17 +265,19 @@ while contin == True:
                         else:
                             contin = True
 
-
+                #this is line of code is to limitation of number selections of activities
                 else:
                        print("WARNING: 1-20 ARE THE ONLY SELECTION")
 
 
-
+        #this is a condtional statement if the user will choose PYTHON CODE CHALLANGE
         elif ch == "2":
                 
                 codeChallange()
                 cc = input("\nEnter the number of the Code you want to open:  ")       
                 
+                #same with the conditional statement from activities this are the number of code challange the user 
+                #can open
                 if cc == "1":
                         from code_challange1 import hi
                         """THIS IS A PROGRAM THAT WILL SHOW YOU A BASIC ESCAPE SEQUENCE OF PYTHON"""
@@ -410,9 +422,11 @@ while contin == True:
                         else:
                             contin = True
 
+                #this is the selection limitations of the user in choosing what to open in code challanges
                 else:
                         print("WARNING: 1-14 ARE THE ONLY SELECTION")
 
+        #this is the third condiitional statement from the dashboard if the user chooose to exit from the system/program
         elif ch == "3":
                print("________________________________")
                print(f"THANK YOU FOR CHECKING MY PROJECT {name.upper()}")
