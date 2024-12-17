@@ -19,7 +19,7 @@ while conn == True:
             odd += num 
     if num == 0:
         print("LOOP HAS ENDED ")
-        print(f"The sum of all the numbers given is {sum}.")
+        print(f"The sum of all the numbers given is {odd + even}.")
         print(f"The sum of all numbers the EVEN numbers only is {even}")
         print(f"The sum of all numbers the ODD numbers only is {odd}")
 
