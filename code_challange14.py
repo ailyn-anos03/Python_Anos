@@ -245,13 +245,14 @@ while con == True:
                       
                 elif choose == "4":
                       print("The Bank Simulation is now Closed")
+                      os.system('cls')
+                      con = False
                       break
-                      conn = False
-                else :
-                    
-                    print("ERROR, Please select from 1 - 4 only!")
-                    break
+            break
 
+        break
+
+              
           
 
 
