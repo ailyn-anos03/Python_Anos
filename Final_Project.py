@@ -164,7 +164,8 @@ while contin == True:
                             contin = True
                 if act == "11":
                         from activity11 import name
-                        """THIS IS A PROGRAM THAT WILL SHOW YOU A WHILE LOOP WITH A BREAK CONDITION MADE FROM PYTHON"""
+                        """THIS IS A PROGRAM THAT WILL SHOW YOU A WHILE LOOP WITH A BREAK CONDITION MADE FROM PYTHON
+                         will be terminated with the name ailyn"""
                         q1 = input("\nDo you want to exit? yes|no\n:")
                         if q1.lower() == "yes":
                                 print("THANK YOU FOR CHECKING MY PROJECT")
@@ -184,7 +185,8 @@ while contin == True:
                             contin = True
                 elif act == "13":
                         from activity13 import num
-                        """THIS IS A PROGRAM THAT WILL SHOW YOU A FOR LOOP STRUCTURE MULTIPLICATION TABLES MADE FROM PYTHON"""
+                        """THIS IS A PROGRAM THAT WILL SHOW YOU A FOR LOOP STRUCTURE MULTIPLICATION TABLES MADE FROM PYTHON
+                        Just enter 10 numbers"""
                         q1 = input("\nDo you want to exit? yes|no\n:")
                         if q1.lower() == "yes":
                                 print("THANK YOU FOR CHECKING MY PROJECT")
@@ -215,7 +217,8 @@ while contin == True:
                             contin = True
                 elif act == "16":
                         from activity16 import tuloy
-                        """THIS IS A PROGRAM THAT WILL SHOW YOU A FOR WHILE LOOP WITH A BOOLEAN VARIABLE AND TRIGGER MADE FROM PYTHON"""
+                        """THIS IS A PROGRAM THAT WILL SHOW YOU A FOR WHILE LOOP WITH A BOOLEAN VARIABLE AND TRIGGER MADE FROM PYTHON
+                        Number 0 will stop the loop"""
                         q1 = input("\nDo you want to exit? yes|no\n:")
                         if q1.lower() == "yes":
                                 print("THANK YOU FOR CHECKING MY PROJECT")
