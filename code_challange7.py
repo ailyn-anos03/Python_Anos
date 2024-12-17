@@ -15,7 +15,7 @@ if pr.lower() == "yes":
         tax = price * 0.123
         taxed = tax + price 
         ch = py - taxed
-        print(f"\n Hi {name}, thank you for purchasing.\n")
+        print(f"\nHi {name}, thank you for purchasing.\n")
         print(f"\nThe added tax to your product is {tax:.2f}.")
         print(f"The taxed price of the product you purchased is {taxed:.2f}.")
         print(f"The change for your payment {py:.2f} is {ch:.2f} \n")
